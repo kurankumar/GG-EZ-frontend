@@ -4,6 +4,8 @@
   <head>
     <meta charset="utf-8">
     <title>GGEZ</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="index.js"></script>
   </head>
 
   <body>
@@ -13,14 +15,13 @@
     <div></div>
     
     <!-- Form to sign in -->
-    <div class="container"> 
+    <div class="right-container" class="column"> 
         <form class="create-user-form" >
             <h3>Create a username:</h3>
             
             <input
             type="text"
             name="username"
-            value="Enter Username"
             placeholder="Enter a Username..."
             class="input-text"
             />
@@ -38,7 +39,7 @@
     <!-- Play Game button/ actual game form  -->
     <div class="form"> 
         <label for="guessField">Enter a guess: </label> 
-        <input type = "text" id = "guessField" class = "guessField"> 
+        <input type = "number" placeholder="Enter a Number..." id = "guessField" class = "guessField"> 
         <input type = "submit" value = "Submit guess" class = "guessSubmit" id = "submitguess"> 
     </div> 
     <br>

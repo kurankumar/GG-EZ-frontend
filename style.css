@@ -1,0 +1,7 @@
+#right-container {
+    min-width: 15em;
+    max-width: 24em;
+    float: left;
+    margin-left: 2em;
+    margin-top: 6.5em;
+  }
