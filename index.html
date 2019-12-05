@@ -16,11 +16,12 @@
     
     <!-- Form to sign in -->
     <div class="right-container" class="column"> 
-        <form class="create-user-form" >
+        <form id = "create-user-form" >
             <h3>Create a username:</h3>
             
             <input
             type="text"
+            id="new-username"
             name="username"
             placeholder="Enter a Username..."
             class="input-text"
@@ -39,10 +40,29 @@
     <!-- Play Game button/ actual game form  -->
     <div class="form"> 
         <label for="guessField">Enter a guess: </label> 
-        <input type = "number" placeholder="Enter a Number..." id = "guessField" class = "guessField"> 
-        <input type = "submit" value = "Submit guess" class = "guessSubmit" id = "submitguess"> 
+
+        <input 
+        type = "number" 
+        placeholder="Enter a Number..." 
+        id = "guessField" 
+        class = "guessField"> 
+
+        <input 
+        type = "submit" 
+        value = "Submit guess" 
+        class = "guessSubmit" 
+        id = "submitguess"> 
     </div> 
     <br>
+
+    <div id="users-list">
+        <h3>Created Users:</h3>
+        <ul id="Users">
+
+        </ul>
+    </div>
+    <br>
+
     
     <div class="item" id="footer">
         Created by <a href="https://github.com/kurankumar" target="_blank"> Kuran Kumar</a> <br>© 2019
