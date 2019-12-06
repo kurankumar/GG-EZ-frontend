@@ -3,19 +3,41 @@
 
   <head>
     <meta charset="utf-8">
-    <title>GGEZ</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>The Next Facebook</title>
+
+    <style>
+            .nav {
+              background-color: limegreen; 
+              list-style-type: none;
+              text-align: center;
+              margin: 0;
+              padding: 0;
+            }
+            
+            .nav li {
+              display: inline-block;
+              font-size: 20px;
+              padding: 20px;
+            }
+            .body{
+                background-color: grey;
+                font-size: 20px;
+            }
+    </style>
     <script type="text/javascript" src="index.js"></script>
+
+    
+
   </head>
 
-  <body>
-    <h1>Welcome To An App That Definitly Worked At All Times With No Errors! </h1> 
+  <body class="body">
+    <h1 class="nav">Kuran's App That Definitly Worked At All Times With No Errors Ever! </h1> 
     
     <!-- Left column for options -->
     <div></div>
     
     <!-- Form to sign in -->
-    <div class="right-container" class="column"> 
+    <div class="nav" class="column"> 
         <form id = "create-user-form" >
             <h3>Create a username:</h3>
             
@@ -55,7 +77,7 @@
     </div> 
     <br> -->
 
-    <div id="users-list">
+    <div id="users-list" class="nav">
         <h3>Created Users:</h3>
         <ul id="Users">
 
@@ -64,7 +86,7 @@
     <br>
 
     
-    <div class="item" id="footer">
+    <div class="nav" id="footer">
         Created by <a href="https://github.com/kurankumar" target="_blank"> Kuran Kumar</a> <br>© 2019
     </div>
     
