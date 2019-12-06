@@ -119,29 +119,29 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-    let randNumb = Math.floor(Math.random() * 10 + 1); 
+    // let randNumb = Math.floor(Math.random() * 10 + 1); 
         
         
-    let guess = 0; 
+    // let guess = 0; 
         
-    const submitGuess = document.querySelector("#submitguess")
-    submitGuess.addEventListener("click", () => {
+    // const submitGuess = document.querySelector("#submitguess")
+    // submitGuess.addEventListener("click", () => {
             
                 
-        const userGuess = document.querySelector("#guessField").value; 
+    //     const userGuess = document.querySelector("#guessField").value; 
         
-        if(userGuess == randNumb){     
-            alert("Congratulations! You guess correctly in " + guess + " GUESSES "); 
-        } 
-        else if(userGuess > randNumb){     
-            guess++; 
-            alert("Your guess was too big.."); 
-        } 
-        else{ 
-            guess++; 
-            alert("Your guess was too small..") 
-        } 
-    })
+    //     if(userGuess == randNumb){     
+    //         alert("Congratulations! You guess correctly in " + guess + " GUESSES "); 
+    //     } 
+    //     else if(userGuess > randNumb){     
+    //         guess++; 
+    //         alert("Your guess was too big.."); 
+    //     } 
+    //     else{ 
+    //         guess++; 
+    //         alert("Your guess was too small..") 
+    //     } 
+    // })
 
     console.log("THE DOM HAS REACHED THIS POINT")
 
